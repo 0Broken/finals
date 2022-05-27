@@ -1,0 +1,134 @@
+<view id="con">
+  <image class="banner" src="/images/banner.jpg" mode="scaleToFill">
+    <image src="/images/banner-text.png" mode="widthFix"></image>
+  </image>
+  <image class="yhq" src="/images/yhq.png" mode="widthFix">
+    <view>领券下单 更享优惠</view>
+    <view>立即领取</view>
+  </image>
+  <view class="navi">
+    <ul>
+      <li>
+        <image src="/images/navi1.png"></image>
+        <view>外卖</view>
+      </li>
+      <li>
+        <image src="/images/navi2.png"></image>
+        <view>熟食</view>
+      </li>
+      <li>
+        <image src="/images/navi3.png"></image>
+        <view>美食</view>
+      </li>
+      <li>
+        <image src="/images/navi4.png"></image>
+        <view>蛋糕</view>
+      </li>
+      <li>
+        <image src="/images/navi5.png"></image>
+        <view>汉堡</view>
+      </li>
+      <li>
+        <image src="/images/navi6.png"></image>
+        <view>饮料</view>
+      </li>
+      <li>
+        <image src="/images/navi7.png"></image>
+        <view>咖啡</view>
+      </li>
+      <li>
+        <image src="/images/navi8.png"></image>
+        <view>鲜果</view>
+      </li>
+    </ul>
+  </view>
+  <swiper indicator-dots="true" indicator-color="white" autoplay="true" interval="5000"
+  duration="1000"  indicator-active-color="#AFAFAF"  circular class="swiper-img">
+      <swiper-item wx:for="{{banner}}">
+        <image src="/images/{{item}}" mode="widthFix"></image>
+      </swiper-item>
+  </swiper>
+  <view class="box1">
+    <view class="box1-left">
+      <image src="/images/box1-img1.png" mode="widthFix"></image>
+      <view>组合套餐</view>
+      <view>COMBINATION</view>  
+    </view>
+    <view class="box1-right">
+      <view>
+        <image src="/images/box1-img2.png" mode="widthFix"></image>
+        <view>团购</view>
+        <view>天天有降价</view>
+      </view>
+      <view>
+        <image src="/images/box1-img3.png" mode="widthFix"></image>
+        <view>秒杀</view>
+        <view>天天有优惠</view>
+      </view>
+    </view>
+  </view>
+  <view class="box2">
+    <view>- 推荐美食 -</view>
+    <scroll-view scroll-x scroll-left="150" >
+     <view class="srcOut">
+        <view class="srcBox">
+          <image src="/images/box2-img2.jpg" mode="widthFix"></image>
+          <view>鸡排拌饭</view>
+          <view>￥15</view>
+        </view>
+        <view class="srcBox">
+          <image src="/images/box2-img1.jpg" mode="widthFix"></image>
+          <view>海鲜煲汤</view>
+          <view>￥15</view>
+        </view>
+        <view class="srcBox">
+          <image src="/images/box2-img3.jpg" mode="widthFix"></image>
+          <view>凉拌猪手</view>
+          <view>￥15</view>
+        </view>
+        <view class="srcBox">
+          <image src="/images/box2-img4.jpg" mode="widthFix"></image>
+          <view>煎鱼排拉面</view>
+          <view>￥15</view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <image class="banner2" src="/images/banner6.png"></image>
+  <view class="box3">
+    <image src="/images/box3-img1.jpg"></image>
+    <view class="box3-text">
+      <view>奶香黄金小南瓜汤</view>
+      <view>瑶柱、鲜菇、南瓜交织惊喜</view>
+      <text>￥15</text>
+      <text>推荐</text>
+    </view>
+  </view>
+  <view class="box3">
+    <image src="/images/box3-img2.jpg"></image>
+    <view class="box3-text">
+      <view>盐水鸭</view>
+      <view>皮白肉嫩、肥而不腻</view>
+      <text>￥15</text>
+      <text>推荐</text>
+    </view>
+  </view>
+  <view class="box3">
+    <image src="/images/box3-img3.jpg"></image>
+    <view class="box3-text">
+      <view>土鸡汤锅</view>
+      <view>肥而不腻、香鲜味美</view>
+      <text>￥15</text>
+      <text>推荐</text>
+    </view>
+  </view>
+  <view class="box3">
+    <image src="/images/box3-img4.jpg"></image>
+    <view class="box3-text">
+      <view>栗子炖肉</view>
+      <view>小奶芋、香甜栗子、入味五花</view>
+      <text>￥15</text>
+      <text>推荐</text>
+    </view>
+  </view>
+</view>

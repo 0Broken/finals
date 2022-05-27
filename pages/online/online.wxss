@@ -1,0 +1,140 @@
+
+.VerticalNav.nav {
+  width: 300rpx;
+  white-space: initial;
+  padding-left: 20rpx;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+.boxHover{
+  color:red;
+  z-index: 1;
+}
+.VerticalNav.nav .cu-item {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  margin: 0;
+  border: none;
+  height: 50px;
+  position: relative;
+}
+
+.VerticalNav.nav .cu-item.cur {
+  background-color: #f1f1f1;
+}
+.VerticalNav.nav .cu-item.cur::after {
+  content: "";
+  width: 8rpx;
+  height: 30rpx;
+  border-radius: 10rpx 0 0 10rpx;
+  position: absolute;
+  background-color: currentColor;
+  top: 0;
+  right: 0rpx;
+  bottom: 0;
+  margin: auto;
+}
+.VerticalBox{
+  display: flex;
+  margin-top: 50rpx;
+}
+.VerticalMain{
+  background-color: #f1f1f1;
+}
+.img2{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.add{
+  width: 35rpx;
+  height: 35rpx;
+  position: absolute;
+  right: -50px;
+  bottom: 5px;
+  color: red;
+  z-index: 1;
+}
+.red{
+  color: red;
+  font-size: 30rpx;
+}
+.banner{
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+}
+.banner>image{
+  width: 100%;
+  height: 250rpx;
+}
+.banner>view{
+  width: 96%;
+  height: 200rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  box-shadow: 0rpx 0rpx 20rpx 0rpx rgb(107, 104, 104);
+  padding-left: 50rpx;
+  padding-top: 20rpx;
+  position: absolute;
+  left: 15rpx;
+  bottom: -30rpx;
+}
+.banner view view:first-child{
+  font-weight: 600;
+  font-size: 35rpx;
+}
+.banner view view:nth-of-type(2){
+  margin-top: 20rpx;
+  color: #8a8585;
+}
+.banner view view:nth-of-type(3){
+  margin-top: 20rpx;
+  font-size: 26rpx;
+}
+.banner view view:nth-of-type(3)::after{
+  content: "欢迎光临，用餐高峰期请提前下单，谢谢";
+  color: #8a8585;
+  padding-left: 10rpx;
+}
+.banner view image{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  right: 50rpx;
+  top: 20rpx;
+}
+.footer{
+  width: 100%;
+  height: 120rpx;
+  position: absolute;
+  bottom: 0rpx;
+  background-color: rgba(0, 0, 0, .8);
+}
+.footer image{
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  top: -20rpx;
+  left: 30rpx;
+}
+.footer view:nth-of-type(1){
+  color: #D3D3D3;
+  position: absolute;
+  left: 180rpx;
+  top: 35rpx;
+}
+.footer view:nth-of-type(2){
+  width: 200rpx;
+  height: 120rpx;
+  position: absolute;
+  right: 0rpx;
+  background-color: #6D6D6D;
+  color: #fff;
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 120rpx;
+}

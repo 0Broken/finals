@@ -1,0 +1,51 @@
+<view class="con">
+  <image class="banner" src="/images/banner8.png">
+    <image class="userinfo-avatar" src="{{avatarUrl}}"></image>
+    <text class="userinfo-nickname" bindtap="getUserProfile">{{nickName}}</text>
+  </image>
+  <view>
+    <view>所有订单</view>
+    <view></view>
+    <ul>
+      <li>
+        <image src="/images/zf.png"></image>
+        <view>待支付</view>
+      </li>
+      <li>
+        <image src="/images/jx.png"></image>
+        <view>进行中</view>
+      </li>
+      <li>
+        <image src="/images/sh.png"></image>
+        <view>售后中</view>
+      </li>
+      <li>
+        <image src="/images/qx.png"></image>
+        <view>已取消</view>
+      </li>
+      <li>
+        <image src="/images/wc.png"></image>
+        <view>已完成</view>
+      </li>
+    </ul>
+  </view>
+  <view>
+    <ul>
+      <li>最新消息<image src="/images/big.png"></image></li>
+      <view></view>
+      <li>收藏店铺<image src="/images/big.png"></image></li>
+      <view></view>
+      <li>我的账户<image src="/images/big.png"></image></li>
+      <view></view>
+      <li>优惠券<image src="/images/big.png"></image></li>
+      <view></view>
+      <li>收货地址<image src="/images/big.png"></image></li>
+    </ul>
+  </view>
+  <view>
+    <ul>
+      <li><button type="primary" open-type="contact"><text>联系客服</text><image src="/images/big.png"></image></button></li>
+      <li><button type="primary" class="phone" bindtap="tel"><text>客服电话</text><image src="/images/big.png"></image></button></li>
+    </ul>
+  </view>
+</view>

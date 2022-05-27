@@ -1,0 +1,236 @@
+<view class="banner">
+  <image src="/images/banner7.jpg"></image>
+  <view>
+    <view>外卖在线接单</view>
+    <view>欢迎光临</view>
+    <view>公告:</view>
+    <image src="/images/defaultMallIcon.png"></image>
+  </view>
+</view>
+
+<view class="VerticalBox">
+  <scroll-view class="VerticalNav nav" scroll-y scroll-with-animation scroll-top="{{VerticalNavTop}}" style="height:calc(100vh - 160px)">
+    <view bindtap="tabSelect" class="cu-item" hover-class="boxHover" data-id="0">      
+    炸鸡汉堡
+    </view>
+    <view bindtap="tabSelect" class="cu-item" hover-class="boxHover" data-id="1">
+     精美点心
+    </view>
+    <view bindtap="tabSelect" class="cu-item" hover-class="boxHover" data-id="2">
+     甜品饮品
+    </view>
+    <view bindtap="tabSelect" class="cu-item" hover-class="boxHover" data-id="3">
+      小吃烧烤
+    </view>
+  </scroll-view>
+  <scroll-view  scroll-y scroll-with-animation  scroll-into-view="main-{{MainCur}}" style="height:calc(110vh - 320px)">
+    <view class="padding-lr" id="main-0" scroll-into-view="main-0">
+      <view class="cu-bar solid-bottom bg-white">
+        <view class="action">
+          <text class="cuIcon-title text-green"></text>
+          炸鸡汉堡
+        </view>
+      </view>
+      <view class="cu-list menu-avatar">
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/hamburger1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">汉堡</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" bindtap="press" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/hamburger1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">汉堡</view>
+            <view class="text-gray text-sm flex">
+              <text class="text-cut red">￥1</text>
+              <image class="add" src="/images/add.jpg"></image>          
+            </view>
+     
+          </view>
+        </view>
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/hamburger1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">汉堡</view>
+            <view class="text-gray text-sm flex">
+              <text class="text-cut red">￥1</text> 
+              <image class="add" src="/images/add.jpg"></image>        
+            </view>
+            
+          </view>
+        </view>
+        <view class="cu-item cur">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/hamburger1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">汉堡</view>
+            <view class="text-gray text-sm flex">
+              <text class="text-cut red">￥1</text>
+              <image class="add" src="/images/add.jpg"></image>        
+            </view>    
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="padding-lr" id="main-1" scroll-into-view="main-1">
+      <view class="cu-bar solid-bottom bg-white">
+        <view class="action">
+          <text class="cuIcon-title text-green"></text>
+          精美点心
+        </view>
+      </view>
+      <view class="cu-list menu-avatar">
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/dessert1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">中式糕点</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/dessert1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">中式糕点</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/dessert1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">中式糕点</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/dessert1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">中式糕点</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+      </view>
+    </view>
+    <view class="padding-lr" id="main-2" scroll-into-view="main-2">
+      <view class="cu-bar solid-bottom bg-white">
+        <view class="action">
+          <text class="cuIcon-title text-green"></text>
+          甜品饮品
+        </view>
+      </view>
+      <view class="cu-list menu-avatar">
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/drinks1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">芝士奶盖</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/drinks1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">芝士奶盖</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/drinks1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">芝士奶盖</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/drinks1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">芝士奶盖</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+      </view>
+    </view>   
+    <view class="padding-lr padding-bottom" id="main-3" scroll-into-view="main-3">
+      <view class="cu-bar solid-bottom bg-white">
+        <view class="action">
+          <text class="cuIcon-title text-green"></text>
+          小吃烧烤
+        </view>
+      </view>
+      <view class="cu-list menu-avatar">
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/barbecue1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">炸鱼豆腐</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/barbecue1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">炸鱼豆腐</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/barbecue1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">炸鱼豆腐</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+        <view class="cu-item">
+          <view class="cu-avatar round lg"><image class="img2" src="/images/barbecue1.jpg"></image></view>
+          <view class="content">
+            <view class="text-grey">炸鱼豆腐</view>
+            <view class="text-gray text-sm flex">      
+            </view>  
+            <text class="text-cut red">￥9.9 </text>
+            <image class="add" src="/images/add.jpg"></image>       
+          </view>     
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+<view class="footer">
+  <image src="/images/buyBtnImg.png"></image>
+  <view class="number">未选购商品</view>
+  <view class="count">去结算</view>
+</view>
+

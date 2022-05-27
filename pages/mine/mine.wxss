@@ -1,0 +1,114 @@
+/* pages/component/nav/nav.wxss */
+.con{
+  width: 100%;
+  height: auto;
+}
+.con>image{
+  width: 100%;
+  height: 400rpx;
+}
+.userinfo-avatar{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 300rpx;
+  top: 40rpx;
+}
+.userinfo-nickname{
+  position: absolute;
+  color: #fff;
+  left: 250rpx;
+  top: 200rpx;
+}
+.con>view:nth-of-type(1){
+  width: 88%;
+  height: 230rpx;
+  position: absolute;
+  top: 280rpx;
+  left: 45rpx;
+  background-color:#fff;
+  border-radius: 20rpx;
+  padding: 20rpx 35rpx;
+}
+.con>view:nth-of-type(1) view:first-child{
+  font-size: 35rpx;
+}
+.con>view:nth-of-type(1) view:nth-of-type(2){
+  border-top: 1rpx solid rgb(216, 214, 214);
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.con>view:nth-of-type(1) li{
+  float: left;
+  margin-right: 40rpx;
+  text-align: center;
+}
+.con>view:nth-of-type(1) li:last-child{
+  margin-right: 0rpx;
+}
+.con>view:nth-of-type(1) li image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.con>view:nth-of-type(2){
+  width: 88%;
+  height: 435rpx;
+  position: absolute;
+  top: 530rpx;
+  left: 45rpx;
+  background-color:#fff;
+  border-radius: 20rpx;
+  padding: 20rpx 35rpx;
+}
+.con>view:nth-of-type(2) li{
+  display: block;
+  font-size: 35rpx
+}
+.con>view:nth-of-type(2) li image{
+  width: 30rpx;
+  height: 30rpx;
+  float: right;
+  margin-top: 10rpx;
+}
+.con>view:nth-of-type(2) view{
+  border-top: 1px solid rgb(216, 214, 214);
+  margin: 20rpx 0rpx;
+}
+.con>view:nth-of-type(3){
+  width: 88%;
+  height: 200rpx;
+  position: absolute;
+  top: 990rpx;
+  left: 45rpx;
+  background-color:#fff;
+  border-radius: 20rpx;
+  padding: 20rpx 35rpx;
+}
+.con>view:nth-of-type(3) li{
+  display: block;
+  font-size: 35rpx
+}
+.con>view:nth-of-type(3) li button{
+  background-color: transparent;
+  color: #000;
+  font-weight: normal;
+  float: left;
+  width: 100%;
+  height: 80rpx;
+}
+.con>view:nth-of-type(3) li button text{
+  position: absolute;
+  left: 0rpx;
+}
+.con>view:nth-of-type(3) li button image{
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  right: 0rpx;
+  top: 25rpx;
+}
+.con>view:nth-of-type(3) view{
+  border-top: 1px solid rgb(216, 214, 214);
+  margin: 20rpx 0rpx;
+}
